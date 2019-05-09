@@ -1,0 +1,33 @@
+
+<mat-spinner  style="margin:0 auto;" *ngIf="!characterdetails"></mat-spinner>
+
+  <mat-card *ngIf="characterdetails">
+    <mat-selection-list #shoes>
+      <h1 *ngIf="characterdetails" style="margin:0 auto;"> {{characterdetails.name}} Details</h1>
+      <mat-list-option>
+       Name: {{characterdetails.name}}
+      </mat-list-option>
+      <mat-list-option>
+      Height: {{characterdetails.height}}
+      </mat-list-option>
+      <mat-list-option>
+      Mass: {{characterdetails.mass}}
+      </mat-list-option>
+      <mat-list-option>
+       Eye Color: {{characterdetails.eye_color}}
+      </mat-list-option>
+      <mat-list-option>
+        Skin Color: {{characterdetails.skin_color}}
+      </mat-list-option>
+      <mat-list-option>
+        Birth Year: {{characterdetails.birth_year}}
+      </mat-list-option>
+      <mat-list-option>
+        HomeWorld: {{characterdetails.homeworld}}
+      </mat-list-option>
+    </mat-selection-list>
+
+  </mat-card>
+
+
+

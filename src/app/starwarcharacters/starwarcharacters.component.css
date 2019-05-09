@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+
+
+.pointer {
+  cursor: pointer;
+}
+
+
+.material-icons.color_green { color: #00FF00; }
+.material-icons.color_white { color: #FFFFFF; }
+
+.mat-row:hover {
+  background-color: lightgrey;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
